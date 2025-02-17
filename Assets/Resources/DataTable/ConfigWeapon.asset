@@ -1,0 +1,315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b847497001d0109458f09fca8f4b2ca1, type: 3}
+  m_Name: ConfigWeapon
+  m_EditorClassIdentifier: 
+  records:
+  - id: 1
+    level: 1
+    weaponType: 1
+    name: Scar
+    prefab: WP_1
+    rof: 0.2
+    range: 20
+    damge: 3
+    accuracy_min: 40
+    accuracy_max: 80
+    reload: 2
+    price: 100
+  - id: 1
+    level: 2
+    weaponType: 1
+    name: Scar
+    prefab: WP_1
+    rof: 0.17
+    range: 30
+    damge: 6
+    accuracy_min: 30
+    accuracy_max: 80
+    reload: 2
+    price: 150
+  - id: 1
+    level: 3
+    weaponType: 1
+    name: Scar
+    prefab: WP_1
+    rof: 0.15
+    range: 35
+    damge: 7
+    accuracy_min: 40
+    accuracy_max: 80
+    reload: 2
+    price: 200
+  - id: 1
+    level: 4
+    weaponType: 1
+    name: Scar
+    prefab: WP_1
+    rof: 0.1
+    range: 40
+    damge: 10
+    accuracy_min: 40
+    accuracy_max: 80
+    reload: 2
+    price: 250
+  - id: 1
+    level: 5
+    weaponType: 1
+    name: Scar
+    prefab: WP_1
+    rof: 0.1
+    range: 45
+    damge: 12
+    accuracy_min: 40
+    accuracy_max: 80
+    reload: 2
+    price: 300
+  - id: 2
+    level: 1
+    weaponType: 2
+    name: Glock
+    prefab: WP_2
+    rof: 0.5
+    range: 15
+    damge: 10
+    accuracy_min: 50
+    accuracy_max: 80
+    reload: 2
+    price: 350
+  - id: 2
+    level: 2
+    weaponType: 2
+    name: Glock
+    prefab: WP_2
+    rof: 0.4
+    range: 15
+    damge: 11
+    accuracy_min: 50
+    accuracy_max: 80
+    reload: 2
+    price: 400
+  - id: 2
+    level: 3
+    weaponType: 2
+    name: Glock
+    prefab: WP_2
+    rof: 0.3
+    range: 15
+    damge: 12
+    accuracy_min: 50
+    accuracy_max: 80
+    reload: 2
+    price: 450
+  - id: 2
+    level: 4
+    weaponType: 2
+    name: Glock
+    prefab: WP_2
+    rof: 0.2
+    range: 15
+    damge: 13
+    accuracy_min: 50
+    accuracy_max: 80
+    reload: 2
+    price: 500
+  - id: 2
+    level: 5
+    weaponType: 2
+    name: Glock
+    prefab: WP_2
+    rof: 0.1
+    range: 15
+    damge: 14
+    accuracy_min: 50
+    accuracy_max: 80
+    reload: 2
+    price: 550
+  - id: 3
+    level: 1
+    weaponType: 3
+    name: Red
+    prefab: WP_3
+    rof: 1
+    range: 15
+    damge: 2
+    accuracy_min: 60
+    accuracy_max: 90
+    reload: 1
+    price: 1100
+  - id: 3
+    level: 2
+    weaponType: 3
+    name: Red
+    prefab: WP_3
+    rof: 0.7
+    range: 15
+    damge: 2
+    accuracy_min: 60
+    accuracy_max: 90
+    reload: 1
+    price: 1150
+  - id: 3
+    level: 3
+    weaponType: 3
+    name: Red
+    prefab: WP_3
+    rof: 0.5
+    range: 15
+    damge: 2
+    accuracy_min: 60
+    accuracy_max: 90
+    reload: 1
+    price: 1200
+  - id: 3
+    level: 4
+    weaponType: 3
+    name: Red
+    prefab: WP_3
+    rof: 0.5
+    range: 15
+    damge: 3
+    accuracy_min: 60
+    accuracy_max: 90
+    reload: 1
+    price: 1250
+  - id: 3
+    level: 5
+    weaponType: 3
+    name: Red
+    prefab: WP_3
+    rof: 0.5
+    range: 15
+    damge: 4
+    accuracy_min: 60
+    accuracy_max: 90
+    reload: 1
+    price: 1300
+  - id: 4
+    level: 1
+    weaponType: 4
+    name: M241
+    prefab: WP_4
+    rof: 0.2
+    range: 25
+    damge: 5
+    accuracy_min: 60
+    accuracy_max: 100
+    reload: 3
+    price: 850
+  - id: 4
+    level: 2
+    weaponType: 4
+    name: M242
+    prefab: WP_4
+    rof: 0.17
+    range: 25
+    damge: 6
+    accuracy_min: 60
+    accuracy_max: 100
+    reload: 3
+    price: 900
+  - id: 4
+    level: 3
+    weaponType: 4
+    name: M243
+    prefab: WP_4
+    rof: 0.15
+    range: 25
+    damge: 7
+    accuracy_min: 60
+    accuracy_max: 100
+    reload: 3
+    price: 950
+  - id: 4
+    level: 4
+    weaponType: 4
+    name: M244
+    prefab: WP_4
+    rof: 0.1
+    range: 25
+    damge: 8
+    accuracy_min: 60
+    accuracy_max: 100
+    reload: 3
+    price: 1000
+  - id: 4
+    level: 5
+    weaponType: 4
+    name: M245
+    prefab: WP_4
+    rof: 0.1
+    range: 25
+    damge: 9
+    accuracy_min: 60
+    accuracy_max: 100
+    reload: 3
+    price: 1050
+  - id: 5
+    level: 1
+    weaponType: 5
+    name: Gatling
+    prefab: WP_5
+    rof: 0.1
+    range: 25
+    damge: 3
+    accuracy_min: 60
+    accuracy_max: 100
+    reload: 5
+    price: 600
+  - id: 5
+    level: 2
+    weaponType: 5
+    name: Gatling
+    prefab: WP_5
+    rof: 0.1
+    range: 25
+    damge: 5
+    accuracy_min: 60
+    accuracy_max: 100
+    reload: 5
+    price: 650
+  - id: 5
+    level: 3
+    weaponType: 5
+    name: Gatling
+    prefab: WP_5
+    rof: 0.1
+    range: 25
+    damge: 7
+    accuracy_min: 60
+    accuracy_max: 100
+    reload: 5
+    price: 700
+  - id: 5
+    level: 4
+    weaponType: 5
+    name: Gatling
+    prefab: WP_5
+    rof: 0.1
+    range: 25
+    damge: 9
+    accuracy_min: 60
+    accuracy_max: 100
+    reload: 5
+    price: 750
+  - id: 5
+    level: 5
+    weaponType: 5
+    name: Gatling
+    prefab: WP_5
+    rof: 0.1
+    range: 25
+    damge: 11
+    accuracy_min: 60
+    accuracy_max: 100
+    reload: 5
+    price: 800

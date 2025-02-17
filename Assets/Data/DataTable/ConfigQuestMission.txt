@@ -1,0 +1,11 @@
+id	type	desciption	reward
+1	1	win mission	50
+2	2	Kill all enemies	50
+3	3	Win mission with HP >60%	60
+4	4	Kill all wave enemy with shotgun	80
+5	9	Keep Survivor's HP >80%	100
+6	5	Win mission with 10 magazines	50
+7	6	Win mission with only hand gun	50
+8	7	Kill 3 enemys with a magazine	60
+9	8	One shot one kill	80
+10	8	one shot one kill , 3 enemies	100

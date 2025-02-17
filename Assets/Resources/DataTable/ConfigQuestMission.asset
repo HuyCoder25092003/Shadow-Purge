@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7608eb37a120e94da5154f0c730ccde, type: 3}
+  m_Name: ConfigQuestMission
+  m_EditorClassIdentifier: 
+  records:
+  - id: 1
+    type: 1
+    desciption: win mission
+    reward: 50
+  - id: 2
+    type: 2
+    desciption: Kill all enemies
+    reward: 50
+  - id: 3
+    type: 3
+    desciption: Win mission with HP >60%
+    reward: 60
+  - id: 4
+    type: 4
+    desciption: Kill all wave enemy with shotgun
+    reward: 80
+  - id: 5
+    type: 9
+    desciption: Keep Survivor's HP >80%
+    reward: 100
+  - id: 6
+    type: 5
+    desciption: Win mission with 10 magazines
+    reward: 50
+  - id: 7
+    type: 6
+    desciption: Win mission with only hand gun
+    reward: 50
+  - id: 8
+    type: 7
+    desciption: Kill 3 enemys with a magazine
+    reward: 60
+  - id: 9
+    type: 8
+    desciption: One shot one kill
+    reward: 80
+  - id: 10
+    type: 8
+    desciption: one shot one kill , 3 enemies
+    reward: 100

@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b8f8cba6dcfa140a2feabc27a579c0, type: 3}
+  m_Name: ConfigMission
+  m_EditorClassIdentifier: 
+  records:
+  - id: 1
+    name: First Day
+    description: Headshots deal increased damage to enemies. Most enemies run towards
+      the player until they are close enough to fire at the player.
+    mission_type: 1
+    scene_name: Game_01
+    waves: 1:02:03
+    quest_1: 1
+    quest_2: 2
+    quest_3: 4
+  - id: 2
+    name: Night
+    description: Headshots deal increased damage to enemies. Most enemies run towards
+      the player until they are close enough to fire at the player.
+    mission_type: 3
+    scene_name: Game_02
+    waves: 2:04:05
+    quest_1: 3
+    quest_2: 5
+    quest_3: 8
+  - id: 3
+    name: Boss
+    description: Headshots deal increased damage to enemies. Most enemies run towards
+      the player until they are close enough to fire at the player.
+    mission_type: 2
+    scene_name: Game_01
+    waves: 2:6:7:8
+    quest_1: 3
+    quest_2: 3
+    quest_3: 3
+  - id: 4
+    name: First Day
+    description: First Day
+    mission_type: 1
+    scene_name: Game_01
+    waves: 1:02:03
+    quest_1: 4
+    quest_2: 4
+    quest_3: 4
+  - id: 5
+    name: Night
+    description: Night
+    mission_type: 2
+    scene_name: Game_02
+    waves: 2:04:05
+    quest_1: 5
+    quest_2: 5
+    quest_3: 5
+  - id: 6
+    name: Boss
+    description: Boss
+    mission_type: 3
+    scene_name: Game_01
+    waves: 2:6:7:8
+    quest_1: 6
+    quest_2: 6
+    quest_3: 6
+  - id: 7
+    name: First Day
+    description: First Day
+    mission_type: 1
+    scene_name: Game_01
+    waves: 1:02:03
+    quest_1: 7
+    quest_2: 7
+    quest_3: 7
+  - id: 8
+    name: Night
+    description: Night
+    mission_type: 2
+    scene_name: Game_02
+    waves: 2:04:05
+    quest_1: 8
+    quest_2: 8
+    quest_3: 8
+  - id: 9
+    name: Boss
+    description: Boss
+    mission_type: 3
+    scene_name: Game_01
+    waves: 2:6:7:8
+    quest_1: 9
+    quest_2: 9
+    quest_3: 9
+  - id: 10
+    name: Final
+    description: Final
+    mission_type: 1
+    scene_name: Game_01
+    waves: 1:02:03
+    quest_1: 10
+    quest_2: 10
+    quest_3: 10

@@ -1,0 +1,6 @@
+id	name	cost	value	bonus
+1	First Pack	$0.99	200	0
+2	Tiny Pack	$2.99	600	0
+3	Small Pack	$4.99	1100	10
+4	Bag	$7.99	1920	20
+5	Locket	$9.99	2600	30

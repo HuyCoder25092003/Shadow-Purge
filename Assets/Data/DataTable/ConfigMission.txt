@@ -1,0 +1,11 @@
+id	name	description	mission_type	scene_name	waves	quest_1	quest_2	quest_3
+1	First Day	Headshots deal increased damage to enemies. Most enemies run towards the player until they are close enough to fire at the player.	1	Game_01	1:02:03	1	2	4
+2	Night	Headshots deal increased damage to enemies. Most enemies run towards the player until they are close enough to fire at the player.	3	Game_02	2:04:05	3	5	8
+3	Boss	Headshots deal increased damage to enemies. Most enemies run towards the player until they are close enough to fire at the player.	2	Game_01	2:6:7:8	3	3	3
+4	First Day	First Day	1	Game_01	1:02:03	4	4	4
+5	Night	Night	2	Game_02	2:04:05	5	5	5
+6	Boss	Boss	3	Game_01	2:6:7:8	6	6	6
+7	First Day	First Day	1	Game_01	1:02:03	7	7	7
+8	Night	Night	2	Game_02	2:04:05	8	8	8
+9	Boss	Boss	3	Game_01	2:6:7:8	9	9	9
+10	Final	Final	1	Game_01	1:02:03	10	10	10

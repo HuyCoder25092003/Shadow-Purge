@@ -1,0 +1,4 @@
+id	name	prefab	damage	hp	skill
+1	Zombie	E_01	5	10	0
+2	Ogre	E_02	7	20	0
+3	Goblin	E_03	20	100	1
